@@ -16,8 +16,11 @@ st.set_page_config(
 
 st.title("🎈 Analítica Predictiva")
 st.write(
-    "para colocar cualquier otro html..."
+    "lalalala"
 )
+st.markdown("""
+<iframe title='Dashboard Tesis' width='600' height='373.5' src='https://app.powerbi.com/view?r=eyJrIjoiNTQyMDExN2UtZjEyYi00YzhkLTk1ZGUtNTc1ODcwMTA3MGRjIiwidCI6ImI3YWY4Y2FmLTgzZDgtNDY0NC04NWFlLTMxN2M1NDUyMjNjMSIsImMiOjR9' frameborder='0' allowFullScreen='true'></iframe>
+""", unsafe_allow_html=True)
 
 # Input usuario
 user_input = st.text_input("Pegue el LINK o FILE_ID de Google Drive")
